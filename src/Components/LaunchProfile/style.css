@@ -1,0 +1,67 @@
+.Launch__profile {
+  display: block;
+  margin: 0 auto;
+  font-family: "Exo", sans-serif;
+  width: 60%;
+  padding: 50px;
+  margin-top: 100px;
+  box-shadow: 5px 5px 13px rgba(177, 177, 177, 0.484);
+  background-color: rgba(255, 150, 218, 0.059);
+  border: 0.3px solid rgba(183, 1, 89, 0.114);
+  border-radius: 10px;
+}
+.heading__mission__name {
+  text-align: center;
+  font-family: Otomanopee One, sans-serif;
+  letter-spacing: 2px;
+  font-size: 40px;
+  line-height: 0px;
+  color: rgb(157, 1, 77);
+}
+.mission__result {
+  text-align: center;
+  font-family: "Exo", sans-serif;
+  font-size: 30px;
+}
+.mission__success {
+  text-align: center;
+  font-family: "Exo", sans-serif;
+  font-size: 25px;
+  color: rgb(0, 177, 0);
+}
+.mission__failed {
+  text-align: center;
+  font-family: "Exo", sans-serif;
+  font-size: 25px;
+  color: rgb(172, 0, 0);
+}
+.rocket__name,
+.rocket__type {
+  font-weight: bold;
+  color: crimson;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.rocket__name > span,
+.rocket__type > span,
+.launch__details > span {
+  color: #000000;
+  text-transform: capitalize;
+}
+.launch__details {
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: crimson;
+  line-height: 24px;
+}
+.images__div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flickr__images {
+  width: 350px;
+  height: 300px;
+  margin: 20px;
+  box-shadow: 5px 5px 13px rgba(177, 177, 177, 0.484);
+  border: 0.3px solid rgba(183, 1, 89, 0.114);
+}

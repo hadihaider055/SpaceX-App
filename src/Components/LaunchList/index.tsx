@@ -2,6 +2,7 @@ import * as React from "react";
 import { useLaunchListQuery } from "../../generated/graphql";
 import LaunchList from "./LaunchList";
 import Loading from "../../assets/Spinner-1.gif";
+import ErrorImg from "../../assets/404 Page.jpg";
 import "./style.css";
 const LaunchListContainer = () => {
   const { data, error, loading } = useLaunchListQuery();
@@ -9,7 +10,7 @@ const LaunchListContainer = () => {
     return <img src={Loading} className="launch__list__loader" />;
   }
   if (error || !data) {
-    return <h2>Error</h2>;
+    return <img src={ErrorImg} className="launch__list__error" />;
   }
   return <LaunchList data={data} />;
 };

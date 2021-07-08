@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 import "./index.css";
 import App from "./App";
+import registerServiceWorker from "./registerServiceWorker";
 
 const client = new ApolloClient({
   uri: "https://spacexdata.herokuapp.com/graphql",
@@ -16,3 +17,5 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
+
+registerServiceWorker();

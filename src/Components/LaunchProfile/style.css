@@ -15,25 +15,27 @@
   font-family: Otomanopee One, sans-serif;
   letter-spacing: 2px;
   font-size: 40px;
-  line-height: 0px;
   color: rgb(157, 1, 77);
 }
 .mission__result {
   text-align: center;
   font-family: "Exo", sans-serif;
   font-size: 30px;
+  margin-top: -20px;
 }
 .mission__success {
   text-align: center;
   font-family: "Exo", sans-serif;
   font-size: 25px;
   color: rgb(0, 177, 0);
+  margin-top: -20px;
 }
 .mission__failed {
   text-align: center;
   font-family: "Exo", sans-serif;
   font-size: 25px;
   color: rgb(172, 0, 0);
+  margin-top: -20px;
 }
 .rocket__name,
 .rocket__type {
@@ -64,4 +66,43 @@
   margin: 20px;
   box-shadow: 5px 5px 13px rgba(177, 177, 177, 0.484);
   border: 0.3px solid rgba(183, 1, 89, 0.114);
+}
+.launch__list__loader {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 17%;
+}
+.launch__list__error {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 650px;
+  height: 500px;
+}
+@media (min-width: 200px) and (max-width: 420px) {
+  .heading__mission__name {
+    font-size: 30px;
+  }
+  .mission__result {
+    font-size: 23px;
+  }
+  .Launch__profile {
+    margin-top: 70px;
+  }
+  .flickr__images {
+    width: 270px;
+    height: 180px;
+    margin-left: -13px;
+  }
+  .launch__list__error {
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    height: 300px;
+  }
+  .launch__list__loader {
+    margin-top: 60%;
+  }
 }
